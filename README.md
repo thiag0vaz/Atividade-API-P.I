@@ -10,7 +10,7 @@ Verbos Suportados:
 GET
 
 Endpoint Exemplo: https://americas.api.riotgames.com/riot/account/v1/accounts/by-riot-id/{gameName}/{tagLine}?api_key={apiKey}
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 2. Riot Games API - Summoner-V4
 Descrição:
 A API Summoner-V4 da Riot Games é usada para obter informações detalhadas sobre um invocador no League of Legends, com base em diferentes identificadores, como PUUID, Summoner ID, ou nome de invocador. Essa API retorna informações como o nível do invocador, o ID da conta, o ID do perfil de invocador, entre outros dados relevantes para o jogador.
