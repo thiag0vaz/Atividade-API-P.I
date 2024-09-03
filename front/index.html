@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorador de APIs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Explorador de APIs</h1>
+        <p>Explore diferentes APIs através deste portal interativo.</p>
+    </header>
+    
+    <main>
+        <!-- Seção para Fórmula 1 -->
+        <section class="blog-post">
+            <h2>Fórmula 1 - Resultados da Última Corrida</h2>
+            <button id="obter-resultados-f1">Obter Resultados</button>
+            <p id="f1-saida"></p>
+        </section>
+        
+        <!-- Seção para CoinGecko -->
+        <section class="blog-post">
+            <h2>CoinGecko - Preço do Bitcoin</h2>
+            <button id="obter-preco-bitcoin">Obter Preço do Bitcoin</button>
+            <p id="coingecko-saida"></p>
+        </section>
+        
+        <!-- Seção para Riot Games API -->
+        <section class="blog-post">
+            <h2>Riot Games API - Perfil do Jogador (LoL)</h2>
+            <input type="text" id="game-name" placeholder="Digite o Game Name">
+            <input type="text" id="tag-line" placeholder="Digite o Tag Line">
+            <button id="obter-informacoes">Obter Informações</button>
+            <p id="saida"></p>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
